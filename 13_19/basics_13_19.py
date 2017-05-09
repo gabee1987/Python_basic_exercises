@@ -62,11 +62,11 @@ def pangram_checker(sentence):  # 18.
 
 def song_99_bottles():  # 19.
     verse = """\
-                {some} bottles of beer on the wall {some} bottles of beer
-                Take one down, pass it around {less} bottles of beer on the wall
+                {bottles} bottles of beer on the wall {bottles} bottles of beer
+                Take one down, pass it around {bottle} bottles of beer on the wall
             """
     for bottles in range(99, 0, -1):
-        print(verse.format(some=bottles, less=bottles-1))
+        print(verse.format(bottles=bottles, bottle=bottles-1))
 
 
 
